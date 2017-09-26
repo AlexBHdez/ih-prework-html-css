@@ -1,0 +1,83 @@
+body{
+  background: rgb(244, 248, 249);
+  font-family: 'Helvetica', sans-serif;
+}
+
+.tweet-box{
+  background: rgb(255, 255, 255);
+  padding: 2em;
+  border: 2px solid rgb(225, 232, 237);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 100px auto;
+}
+
+.info-profile{
+  position: relative;
+}
+
+.data-profile{
+  position: absolute;
+  top: .2em;
+  left: 6em;
+}
+
+.img-profile{
+  margin-right: 1em;
+}
+
+.user-name{
+  display: inline;
+  font-size: 1.8em;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+
+.user-account{
+  margin-top: 0.2em;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: rgb(104, 109, 129);
+}
+
+.follow-text{
+  display: inline;
+  font-size: 2em;
+  font-weight: 800;
+  color: rgb(85, 172, 238);
+  margin: 0;
+}
+
+.follow{
+  display: inline-block;
+  border: 2px solid rgb(85, 172, 238);
+  border-radius: 10px;
+  padding: .6em 2em;
+  float: right;
+}
+
+.tweet p{
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+.tweet p + p{
+  color: rgb(101, 116, 127);
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.interactions{
+  margin-top: 2em;
+}
+
+.interactions img:nth-child(n+2){
+  margin-left: 2em;
+}
+
+.interactions span{
+  font-size: 1.8em;
+  margin-left: .2em;
+  color: rgb(105, 120, 130);
+}
